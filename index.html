@@ -36,7 +36,7 @@
             <p>"Los desarrolladores de software no aprovechan todas las oportunidades para desempeñar una carrera profesional de éxito, cometiendo siempre los mismos errores una y otra vez."</p>
         </blockquote>
         <p><cite>El libro negro del programador</cite></p>
-
+        
         <ul>
             <li>Desarrollo de paginas web</li>
             <li>Diseños de las paginas web</li>
@@ -61,6 +61,11 @@
             <dd>Lenguaje de programación que nos permiten darle logica al comportamiento de los sitio web.</dd>
         </dl>
 
+            <dt><strong>CSS:</strong></dt>
+            <dd>Lenguaje de diseño donde nos permite darle visualidad y apariencia de la mejor manera a una página web.</dd>
+            <dt><strong>JavaScript:</strong></dt>
+            <dd>Lenguaje de programación que nos permiten darle logica al comportamiento de los sitio web.</dd>
+        </dl>
         <a href="https://es.khanacademy.org" target="_blank">Khan Academy</a>
         <a href="https://scholar.google.com/?hl=es" target="_blank">Google Academico</a>
         <a href="https://es.duolingo.com/" target="_blank">Duolingo</a>
@@ -86,6 +91,125 @@
             Tu navegador no soporta video HTML5.
         </video>
 
+        <table>
+            <caption>Horario académico</caption>
+            <thead>
+                <tr>
+                    <th>Asignatura</th>
+                    <th>Día</th>
+                    <th>Hora</th>
+                    <th>Modalidad</th>
+                    <th>Profesor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fundamentos web</td>
+                    <td>Lunes</td>
+                    <td>7:00 a.m. - 10:00 a.m.</td>
+                    <td>Virtual</td>
+                    <td>Ronal Andrés Tamayo (El mejor profesor)</td>
+                </tr>
+                <tr>
+                    <td>Física</td>
+                    <td>Martes</td>
+                    <td>7:00 a.m. - 10:00 a.m.</td>
+                    <td>Virtual</td>
+                    <td>David Fernando Rojas Vallecilla</td>
+                </tr>
+                <tr>
+                    <td>Programación</td>
+                    <td>Miércoles</td>
+                    <td>7:00 a.m. - 10:00 a.m.</td>
+                    <td>Virtual</td>
+                    <td>William Diaz Sepulveda</td>
+                </tr>
+                <tr>
+                    <td>Ingeniería de software</td>
+                    <td>Jueves</td>
+                    <td>7:00 a.m. - 10:00 a.m.</td>
+                    <td>Virtual</td>
+                    <td>Javier Perez Campo</td>
+                </tr>
+                <tr>
+                    <td>Calculo vectorial</td>
+                    <td>Viernes</td>
+                    <td>7:00 a.m. - 10:00 a.m.</td>
+                    <td>Virtual</td>
+                    <td>Jorge Leandro Rodriguez Gonzalez</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <form>
+            <fieldset>
+                <legend>Información académica</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo">
+
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha">
+
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad"><br>
+
+                <label for="satisfaccion">Satisfacción:</label>
+                <input type="range" id="satisfaccion" name="satisfaccion" min="1" max="10"><br>
+
+                 <label for="jornada">Jornada:</label>
+                <input type="radio" id="jornada" name="jornada" value="mañana"> Mañana <input type="radio" id="jornada" name="jornada" value="tarde"> Tarde <br>
+
+                <label for="beca">¿Tiene beca?</label>
+                <input type="checkbox" id="beca" name="beca">
+
+                <label for="semestre">Semestre:</label>
+                <select id="semestre" name="semestre">
+                    <option value="">Seleccione</option>
+                    <option value="1">Primer semestre</option>
+                    <option value="2">Segundo semestre</option>
+                </select><br><br>
+
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" name="comentario" rows="5" cols="40"></textarea>
+            </fieldset>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </form>
+
+        <article>
+            <h2>Mi primer taller de desarrollo web</h2>
+  
+            <p>Publicado el <time datetime="2026-09-06">6 de septiembre de 2026</time>.</p>
+  
+            <p>En este proyecto he aprendido la estructura básica de HTML5 y Git.<br>
+                Cada tema me vuelve más competente en el desarrollo web.</p>
+            <hr>
+            <details>
+                <summary>¿Qué estoy aprendiendo?</summary>
+                <p>Estoy aprendiendo la estructura básica de documentos HTML.</p>
+            </details>
+
+            <pre><code>int a = 5;
+                int b = 10;
+                int suma = a + b;
+                System.out.println(suma);</code></pre>
+
+            <p>Para copiar un texto se puede utilizar <kbd>Ctrl</kbd> + <kbd>C</kbd>.</p>
+
+            <p>Avance del curso: <progress value="80" max="100">80%</progress></p>
+            <p>Calificación obtenida: <meter min="0" max="10" value="7">7 de 10</meter></p>
+        </article>
+
+        <aside>
+            <h3>Información del autor</h3>
+            <address>
+            <p>Contacto: <a href="mailto:juancamilozuniga1234@gmail.com">juancamilozuniga1234@gmail.com</a><br></p>
+        </address>
+        </aside>
     </main>
     <footer>
         <p>Taller realizado para la asignatura de Fundamentos WEB.</p>
