@@ -2,6 +2,7 @@
 Nombre: Juan Camilo Zuñiga Montaño
 Este repositorio contiene mi primer taller de HTML de la asignatura
 Fundamentos de Programación Web.
+<<<<<<< HEAD
 ## Verificación de codigo
 
 ## Caso A
@@ -41,3 +42,5 @@ Corección realizada:
     <figcaption><strong>Garchomp:</strong> Pokémon tipo dragón-tierra.</figcaption>
 </figure>
 Fuente consultada: https://youtu.be/Mcktcj8xOOo
+=======
+>>>>>>> e54e4d795e1aadf243e9c8dd94fd14d43bec53f1
